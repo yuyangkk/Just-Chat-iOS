@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Just_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="D4y-0D-jjy">
+                                <rect key="frame" x="110" y="239" width="100" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5W2-Dj-vRx">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="45"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="1" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Chat"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEW-3e-fX8">
+                                        <rect key="frame" x="0.0" y="65" width="100" height="45"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="1" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="lnN-4O-u6V"/>
+                                            <constraint firstAttribute="width" constant="100" id="oyl-Fq-YdG"/>
+                                        </constraints>
+                                        <state key="normal" title="Learn Me！"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5W2-Dj-vRx" firstAttribute="height" secondItem="OEW-3e-fX8" secondAttribute="height" id="09c-oX-7Wp"/>
+                                    <constraint firstItem="5W2-Dj-vRx" firstAttribute="width" secondItem="OEW-3e-fX8" secondAttribute="width" id="rc7-2P-F5I"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="D4y-0D-jjy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9gy-zu-Xgo"/>
+                            <constraint firstItem="D4y-0D-jjy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VLA-dC-KTd"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353" y="322"/>
+        </scene>
+    </scenes>
+</document>
