@@ -9,22 +9,22 @@
 import UIKit
 import Alamofire
 
-class ViewController: UIViewController {
+class MainViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        Alamofire.request(.GET, "https://httpbin.org/get", parameters: ["foo": "bar"])
-            .response { request, response, data, error in
-                print(request)
-                print(response)
-        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
 
+    @IBAction func goToChat(sender: AnyObject) {
+        self.presentAnotherScene("Chat")
+    }
 
+    @IBAction func goToLogin(sender: AnyObject) {
+        self.presentAnotherScene("Login")
+    }
 }
 

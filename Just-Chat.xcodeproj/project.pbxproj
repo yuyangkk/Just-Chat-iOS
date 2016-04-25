@@ -11,13 +11,13 @@
 		000F22C41CCE1DAF00B03611 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000F22C31CCE1DAF00B03611 /* Chat.storyboard */; };
 		000F22C51CCE1DAF00B03611 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000F22C31CCE1DAF00B03611 /* Chat.storyboard */; };
 		003FCFB51CCE11A7006F45C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FCFB41CCE11A7006F45C8 /* AppDelegate.swift */; };
-		003FCFB71CCE11A7006F45C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FCFB61CCE11A7006F45C8 /* ViewController.swift */; };
+		003FCFB71CCE11A7006F45C8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FCFB61CCE11A7006F45C8 /* MainViewController.swift */; };
 		003FCFBA1CCE11A7006F45C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003FCFB81CCE11A7006F45C8 /* Main.storyboard */; };
 		003FCFBC1CCE11A7006F45C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003FCFBB1CCE11A7006F45C8 /* Assets.xcassets */; };
 		003FCFBF1CCE11A7006F45C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003FCFBD1CCE11A7006F45C8 /* LaunchScreen.storyboard */; };
 		003FCFCA1CCE11A7006F45C8 /* Just_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FCFC91CCE11A7006F45C8 /* Just_ChatTests.swift */; };
 		003FCFD51CCE11A7006F45C8 /* Just_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FCFD41CCE11A7006F45C8 /* Just_ChatUITests.swift */; };
-		003FCFE61CCE1334006F45C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FCFB61CCE11A7006F45C8 /* ViewController.swift */; };
+		003FCFE61CCE1334006F45C8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FCFB61CCE11A7006F45C8 /* MainViewController.swift */; };
 		003FCFE71CCE1334006F45C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FCFB41CCE11A7006F45C8 /* AppDelegate.swift */; };
 		003FCFEA1CCE1334006F45C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003FCFBD1CCE11A7006F45C8 /* LaunchScreen.storyboard */; };
 		003FCFEB1CCE1334006F45C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003FCFBB1CCE11A7006F45C8 /* Assets.xcassets */; };
@@ -26,12 +26,28 @@
 		003FCFF51CCE1776006F45C8 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003FCFF31CCE1776006F45C8 /* Macro.swift */; };
 		003FCFF81CCE1A65006F45C8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003FCFF71CCE1A65006F45C8 /* Login.storyboard */; };
 		003FCFF91CCE1A65006F45C8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003FCFF71CCE1A65006F45C8 /* Login.storyboard */; };
-		00661FF01CCE2E0800F8665D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00661FED1CCE2E0800F8665D /* Alamofire.framework */; };
-		00661FF11CCE2E0800F8665D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00661FED1CCE2E0800F8665D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		00661FF21CCE2E0800F8665D /* SocketIOClientSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00661FEE1CCE2E0800F8665D /* SocketIOClientSwift.framework */; };
-		00661FF31CCE2E0800F8665D /* SocketIOClientSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00661FEE1CCE2E0800F8665D /* SocketIOClientSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		00661FF41CCE2E0800F8665D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00661FEF1CCE2E0800F8665D /* SwiftyJSON.framework */; };
-		00661FF51CCE2E0800F8665D /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00661FEF1CCE2E0800F8665D /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		007C29231CCE609400AB846B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007C29201CCE609400AB846B /* Alamofire.framework */; };
+		007C29241CCE609400AB846B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 007C29201CCE609400AB846B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		007C29251CCE609400AB846B /* SocketIOClientSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007C29211CCE609400AB846B /* SocketIOClientSwift.framework */; };
+		007C29261CCE609400AB846B /* SocketIOClientSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 007C29211CCE609400AB846B /* SocketIOClientSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		007C29271CCE609400AB846B /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007C29221CCE609400AB846B /* SwiftyJSON.framework */; };
+		007C29281CCE609400AB846B /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 007C29221CCE609400AB846B /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		007C292C1CCE60BC00AB846B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007C29291CCE60BC00AB846B /* Alamofire.framework */; };
+		007C292D1CCE60BC00AB846B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 007C29291CCE60BC00AB846B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		007C292E1CCE60BC00AB846B /* SocketIOClientSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007C292A1CCE60BC00AB846B /* SocketIOClientSwift.framework */; };
+		007C292F1CCE60BC00AB846B /* SocketIOClientSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 007C292A1CCE60BC00AB846B /* SocketIOClientSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		007C29301CCE60BC00AB846B /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007C292B1CCE60BC00AB846B /* SwiftyJSON.framework */; };
+		007C29311CCE60BC00AB846B /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 007C292B1CCE60BC00AB846B /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		007C29351CCE618200AB846B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C29341CCE618200AB846B /* BaseViewController.swift */; };
+		007C29361CCE618200AB846B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C29341CCE618200AB846B /* BaseViewController.swift */; };
+		007C29381CCE62B000AB846B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C29371CCE62B000AB846B /* ChatViewController.swift */; };
+		007C29391CCE62B000AB846B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C29371CCE62B000AB846B /* ChatViewController.swift */; };
+		007C293B1CCE639600AB846B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C293A1CCE639600AB846B /* LoginViewController.swift */; };
+		007C293C1CCE639600AB846B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C293A1CCE639600AB846B /* LoginViewController.swift */; };
+		007C29431CCE668D00AB846B /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C29421CCE668D00AB846B /* HttpRequest.swift */; };
+		007C29441CCE668D00AB846B /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C29421CCE668D00AB846B /* HttpRequest.swift */; };
+		007C29461CCE66C900AB846B /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C29451CCE66C900AB846B /* APIResult.swift */; };
+		007C29471CCE66C900AB846B /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007C29451CCE66C900AB846B /* APIResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +74,22 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				00661FF31CCE2E0800F8665D /* SocketIOClientSwift.framework in Embed Frameworks */,
-				00661FF11CCE2E0800F8665D /* Alamofire.framework in Embed Frameworks */,
-				00661FF51CCE2E0800F8665D /* SwiftyJSON.framework in Embed Frameworks */,
+				007C29261CCE609400AB846B /* SocketIOClientSwift.framework in Embed Frameworks */,
+				007C29241CCE609400AB846B /* Alamofire.framework in Embed Frameworks */,
+				007C29281CCE609400AB846B /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		007C29321CCE60BC00AB846B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				007C292F1CCE60BC00AB846B /* SocketIOClientSwift.framework in Embed Frameworks */,
+				007C292D1CCE60BC00AB846B /* Alamofire.framework in Embed Frameworks */,
+				007C29311CCE60BC00AB846B /* SwiftyJSON.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,7 +101,7 @@
 		000F22C31CCE1DAF00B03611 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		003FCFB11CCE11A6006F45C8 /* Just-Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just-Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		003FCFB41CCE11A7006F45C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		003FCFB61CCE11A7006F45C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Just-Chat/ViewController.swift"; sourceTree = SOURCE_ROOT; };
+		003FCFB61CCE11A7006F45C8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "Just-Chat/MainViewController.swift"; sourceTree = SOURCE_ROOT; };
 		003FCFB91CCE11A7006F45C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		003FCFBB1CCE11A7006F45C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		003FCFBE1CCE11A7006F45C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,9 +116,17 @@
 		003FCFF31CCE1776006F45C8 /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
 		003FCFF61CCE18BC006F45C8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		003FCFF71CCE1A65006F45C8 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		00661FED1CCE2E0800F8665D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		00661FEE1CCE2E0800F8665D /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIOClientSwift.framework; path = ../../Carthage/Build/iOS/SocketIOClientSwift.framework; sourceTree = "<group>"; };
-		00661FEF1CCE2E0800F8665D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = ../../Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		007C29201CCE609400AB846B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		007C29211CCE609400AB846B /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIOClientSwift.framework; path = ../../Carthage/Build/iOS/SocketIOClientSwift.framework; sourceTree = "<group>"; };
+		007C29221CCE609400AB846B /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = ../../Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		007C29291CCE60BC00AB846B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		007C292A1CCE60BC00AB846B /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIOClientSwift.framework; path = ../../Carthage/Build/iOS/SocketIOClientSwift.framework; sourceTree = "<group>"; };
+		007C292B1CCE60BC00AB846B /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = ../../Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		007C29341CCE618200AB846B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		007C29371CCE62B000AB846B /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = "Just-Chat/Base/ChatViewController.swift"; sourceTree = SOURCE_ROOT; };
+		007C293A1CCE639600AB846B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "Just-Chat/Base/LoginViewController.swift"; sourceTree = SOURCE_ROOT; };
+		007C29421CCE668D00AB846B /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		007C29451CCE66C900AB846B /* APIResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +134,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00661FF21CCE2E0800F8665D /* SocketIOClientSwift.framework in Frameworks */,
-				00661FF01CCE2E0800F8665D /* Alamofire.framework in Frameworks */,
-				00661FF41CCE2E0800F8665D /* SwiftyJSON.framework in Frameworks */,
+				007C29251CCE609400AB846B /* SocketIOClientSwift.framework in Frameworks */,
+				007C29231CCE609400AB846B /* Alamofire.framework in Frameworks */,
+				007C29271CCE609400AB846B /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +158,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007C292E1CCE60BC00AB846B /* SocketIOClientSwift.framework in Frameworks */,
+				007C292C1CCE60BC00AB846B /* Alamofire.framework in Frameworks */,
+				007C29301CCE60BC00AB846B /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +191,11 @@
 		003FCFB31CCE11A7006F45C8 /* Just-Chat */ = {
 			isa = PBXGroup;
 			children = (
+				007C29401CCE65EE00AB846B /* Common */,
+				007C293F1CCE65B200AB846B /* Storage */,
+				007C293E1CCE654E00AB846B /* Model */,
+				007C293D1CCE641B00AB846B /* NetWork */,
+				007C29331CCE617200AB846B /* Base */,
 				00661FF71CCE2E3300F8665D /* Framework */,
 				003FCFF21CCE173F006F45C8 /* Macro */,
 				003FCFE31CCE130B006F45C8 /* ViewController */,
@@ -196,7 +241,9 @@
 		003FCFE31CCE130B006F45C8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				003FCFB61CCE11A7006F45C8 /* ViewController.swift */,
+				003FCFB61CCE11A7006F45C8 /* MainViewController.swift */,
+				007C29371CCE62B000AB846B /* ChatViewController.swift */,
+				007C293A1CCE639600AB846B /* LoginViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -212,11 +259,52 @@
 		00661FF71CCE2E3300F8665D /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				00661FED1CCE2E0800F8665D /* Alamofire.framework */,
-				00661FEE1CCE2E0800F8665D /* SocketIOClientSwift.framework */,
-				00661FEF1CCE2E0800F8665D /* SwiftyJSON.framework */,
+				007C29291CCE60BC00AB846B /* Alamofire.framework */,
+				007C292A1CCE60BC00AB846B /* SocketIOClientSwift.framework */,
+				007C292B1CCE60BC00AB846B /* SwiftyJSON.framework */,
+				007C29201CCE609400AB846B /* Alamofire.framework */,
+				007C29211CCE609400AB846B /* SocketIOClientSwift.framework */,
+				007C29221CCE609400AB846B /* SwiftyJSON.framework */,
 			);
 			path = Framework;
+			sourceTree = "<group>";
+		};
+		007C29331CCE617200AB846B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				007C29341CCE618200AB846B /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		007C293D1CCE641B00AB846B /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				007C29421CCE668D00AB846B /* HttpRequest.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		007C293E1CCE654E00AB846B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				007C29451CCE66C900AB846B /* APIResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		007C293F1CCE65B200AB846B /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		007C29401CCE65EE00AB846B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +371,7 @@
 				003FCFE51CCE1334006F45C8 /* Sources */,
 				003FCFE81CCE1334006F45C8 /* Frameworks */,
 				003FCFE91CCE1334006F45C8 /* Resources */,
+				007C29321CCE60BC00AB846B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -384,8 +473,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003FCFB71CCE11A7006F45C8 /* ViewController.swift in Sources */,
+				007C293B1CCE639600AB846B /* LoginViewController.swift in Sources */,
+				003FCFB71CCE11A7006F45C8 /* MainViewController.swift in Sources */,
+				007C29351CCE618200AB846B /* BaseViewController.swift in Sources */,
+				007C29461CCE66C900AB846B /* APIResult.swift in Sources */,
 				003FCFF41CCE1776006F45C8 /* Macro.swift in Sources */,
+				007C29381CCE62B000AB846B /* ChatViewController.swift in Sources */,
+				007C29431CCE668D00AB846B /* HttpRequest.swift in Sources */,
 				003FCFB51CCE11A7006F45C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,8 +504,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003FCFE61CCE1334006F45C8 /* ViewController.swift in Sources */,
+				007C293C1CCE639600AB846B /* LoginViewController.swift in Sources */,
+				003FCFE61CCE1334006F45C8 /* MainViewController.swift in Sources */,
+				007C29361CCE618200AB846B /* BaseViewController.swift in Sources */,
+				007C29471CCE66C900AB846B /* APIResult.swift in Sources */,
 				003FCFF51CCE1776006F45C8 /* Macro.swift in Sources */,
+				007C29391CCE62B000AB846B /* ChatViewController.swift in Sources */,
+				007C29441CCE668D00AB846B /* HttpRequest.swift in Sources */,
 				003FCFE71CCE1334006F45C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,7 +652,7 @@
 				);
 				INFOPLIST_FILE = "Just-Chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youxing.DuoLa.Just-Chat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swifthacker.DuoLa.Just-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -569,7 +668,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPMENT=0";
 				INFOPLIST_FILE = "Just-Chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youxing.DuoLa.Just-Chat";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swifthacker.DuoLa.Just-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -624,7 +723,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -634,7 +736,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Just-Chat/Just-Chat Dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youxing.DuoLa.Just-Chat-Dev";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swifthacker.DuoLa.Just-Chat-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -643,12 +745,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-dev";
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPMENT=1";
 				INFOPLIST_FILE = "$(SRCROOT)/Just-Chat/Just-Chat Dev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youxing.DuoLa.Just-Chat-Dev";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swifthacker.DuoLa.Just-Chat-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
